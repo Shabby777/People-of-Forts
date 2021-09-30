@@ -17,3 +17,14 @@
 h4{
     margin-bottom: 30px;
 }
+.nav-link{
+    cursor: pointer;
+}
+#logo{
+    vertical-align: middle;
+    width: 25px;
+}
+#search-btn{
+    border: 1px solid #D5D5D5;
+    color: #D5D5D5;
+}
