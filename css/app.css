@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .img-fluid {
     margin-top: 20px;
 }
@@ -25,6 +28,22 @@ h4{
     width: 25px;
 }
 #search-btn{
-    border: 1px solid #D5D5D5;
+    border: 1px solid #00264d;
     color: #D5D5D5;
+    height: 50px;
+    padding-top: 15px;
 }
+#mainNav.navbar-shrink #search-btn {
+    color: rgb(0, 0, 0);
+}
+#pointer{
+    cursor: pointer;
+}
+#phone{
+    margin-bottom: 10px;
+}
+/* @media (max-width: 992px) {
+    .form-control, #search-btn{
+        display: none;
+    }
+  } */
