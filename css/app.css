@@ -27,6 +27,9 @@ h4{
     vertical-align: middle;
     width: 25px;
 }
+#search{
+    margin-top: 15px;
+}
 #search-btn{
     border: 1px solid #00264d;
     color: #D5D5D5;
