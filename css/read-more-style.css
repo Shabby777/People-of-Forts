@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(252, 255, 97);
+    background-color: rgb(254, 255, 188);
 }
 h1{
     margin-top: 80px;
@@ -51,3 +51,18 @@ p{
 /* iframe{
     border: 1px solid black;
 } */
+@media (min-width: 768px){
+    .container-md, .container-sm, .container {
+        max-width: 1800px;
+        }
+}
+@media (max-width: 768px){
+.container-md, .container-sm, .container {
+    max-width: 900px;
+    }
+}
+@media (max-width: 576px){
+    .container-md, .container-sm, .container {
+        max-width: 900px;
+    }
+}
