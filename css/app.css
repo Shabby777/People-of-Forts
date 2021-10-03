@@ -4,6 +4,9 @@ a{
 .img-fluid {
     margin-top: 20px;
 }
+#main-img{
+    width: auto;
+}
 .btn-secondary{
     margin-top: 20px;
 }
@@ -60,3 +63,18 @@ h4{
         display: none;
     }
   } */
+  /* @media (min-width: 768px){
+    .container-md, .container-sm, .container {
+        max-width: 1500px;
+        }
+}
+@media (max-width: 768px){
+.container-md, .container-sm, .container {
+    max-width: 900px;
+    }
+}
+@media (max-width: 576px){
+    .container-md, .container-sm, .container {
+        max-width: 900px;
+    }
+} */
