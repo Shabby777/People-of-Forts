@@ -9,6 +9,9 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+a:hover{
+    color: #fff;
+}
 nav>a:hover{
     color: #fff;
 }
