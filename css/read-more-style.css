@@ -51,9 +51,9 @@ p{
 #no-bullets{
     list-style-type: none;
 }
-/* iframe{
-    border: 1px solid black;
-} */
+iframe{
+    width: 100%;
+}
 @media (min-width: 768px){
     .container-md, .container-sm, .container {
         max-width: 1800px;
