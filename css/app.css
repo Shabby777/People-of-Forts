@@ -7,8 +7,21 @@ a{
 #main-img{
     width: auto;
 }
+.btn-primary{
+    margin-top: 20px;
+}
+#mainNav.navbar-shrink #login-btn {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
 .btn-secondary{
     margin-top: 20px;
+}
+.btn-primary:hover{
+    transform: 300ms;
+    background: #00a4b9;
+    z-index: 1;
+    box-shadow: 2px 2px 2px #000;
 }
 .btn-secondary:hover{
     transform: 300ms;
@@ -36,17 +49,14 @@ h4{
     vertical-align: middle;
     width: 25px;
 }
-#search{
+#login{
     margin-top: 15px;
 }
-#search-btn{
+#login-btn{
     border: 1px solid #00264d;
     color: #D5D5D5;
     height: 50px;
     padding-top: 15px;
-}
-#mainNav.navbar-shrink #search-btn {
-    color: rgb(0, 0, 0);
 }
 .read-more{
     text-decoration: none;
@@ -59,7 +69,7 @@ h4{
     margin-bottom: 10px;
 }
 /* @media (max-width: 992px) {
-    .form-control, #search-btn{
+    .form-control, #login-btn{
         display: none;
     }
   } */
